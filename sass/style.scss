@@ -1,0 +1,24 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+div {
+  display: block;
+}
+.about-wrapper {
+  position: relative;
+
+}
+.services-card i {
+  margin-bottom: 15px;
+  display: inline-block;
+  padding: 16px 16px;
+  font-size: 50px;
+  line-height: 60px;
+  color: gold;
+  border: 4px solid gold;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  z-index: 86;
+}
