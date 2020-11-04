@@ -2,19 +2,24 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
 h4 {
   color: gold;
   font-family: 'Pacifico', cursive;
 }
-.navbar-brand {
-  color: gold;
+h3 {
+  font-size: 40px;
+  font-family: 'Pacifico', cursive;
 }
-
-.header-img {
-  background: rgba(0,0,0,.1);
+h1 {
+  font-size: 70px;
 }
-.about-wrapper {
-  position: relative;
+.carousel-caption {
+  left: 50%;
+  top: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%)
 }
 p {
   font-size: 17px;
@@ -24,7 +29,6 @@ p {
   margin-bottom: 20px;
   font-family: 'Open Sans', sans-serif;
 }
-
 .services-card i {
   margin-bottom: 15px;
   display: inline-block;
@@ -46,15 +50,13 @@ p {
   width: 100%;
   object-fit: cover;
 }
-
 .footer ul {
-  margin-left: 0px;
+  margin-left: 0;
   list-style-type: none;
 }
-
 .footer li {
   display: inline-block;
-  font-size: 0px;
+  font-size: 0;
 }
 .footer i {
   font-size: 15px;
@@ -69,4 +71,8 @@ p {
   transform: scale(1, 1);
   text-decoration: none;
 }
-
+@media screen and (min-width: 320px),(max-width: 520px) {
+  h1, h3 {
+    font-size: calc(16px + 8 * ((100vw - 320px) / 680));
+  }
+}
