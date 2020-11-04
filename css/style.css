@@ -3,8 +3,13 @@
   box-sizing: border-box;
 }
 
-div {
-  display: block;
+h4 {
+  color: gold;
+  font-family: 'Pacifico', cursive;
+}
+
+.navbar-brand {
+  color: gold;
 }
 
 .header-img {
