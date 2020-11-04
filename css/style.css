@@ -7,6 +7,10 @@ div {
   display: block;
 }
 
+.header-img {
+  background: rgba(0, 0, 0, 0.1);
+}
+
 .about-wrapper {
   position: relative;
 }
@@ -42,5 +46,29 @@ p {
   height: 300px;
   width: 100%;
   object-fit: cover;
+}
+
+.footer ul {
+  margin-left: 0px;
+  list-style-type: none;
+}
+
+.footer li {
+  display: inline-block;
+  font-size: 0px;
+}
+
+.footer i {
+  font-size: 15px;
+  padding: 0 0 0 4px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  margin: 0 auto;
+  transform: scale(1, 1);
+  text-decoration: none;
 }
 /*# sourceMappingURL=style.css.map */
